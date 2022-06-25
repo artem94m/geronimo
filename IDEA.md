@@ -1,9 +1,9 @@
 # Geronimo - Simple task/bug tracker
 
 ## User roles:
-- admin (default user, can do everything, cannot be deleted)
-- leader (admin for the project, assigned by admin, can do everything within the assigned project, can assign other users)
-- doer (can do everything with the assigned tasks, can watch for the assigned project)
+- admin: default user, can do everything, cannot be deleted
+- leader: admin for the project, assigned by admin, can do everything within the assigned project, can assign other users for the project
+- doer: can do everything with the assigned tasks (move, comment, attach files), can watch for the assigned project (comment other tasks)
 - spectator (can only watch for the assigned project)
 
 ## Features:
